@@ -1,0 +1,129 @@
+
+input[type=text],input[type=tel], input[type=email],select {
+    width: 100%;
+    padding: 6px 20px !important;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f6fa;
+}
+.wrapper .sidebar{
+    left: 0;
+    top: 0;
+    width: 225px;
+    height: 100% ;
+    background: rgb(7, 105, 185);
+    position: fixed;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.wrapper .sidebar .profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+.wrapper .sidebar .profile p{
+    color: rgb(206, 204, 253);
+    font-size: 14px;
+}
+.wrapper .sidebar ul li a{
+    padding: 13px 30px;
+    color: rgb(241, 237, 237);
+    font-size: 20px;
+    border-bottom: 1px solid #10558d;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+.wrapper .sidebar ul li a .icon{
+    width: 30px;
+    display: inline-block;
+    color: #dee4ec;
+
+}
+/*topnave*/
+.wrapper .section {
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+
+}
+.wrapper .section .topnavbar {
+    background-color: rgb(7, 105, 185);
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+}
+.wrapper .section .topnavbar .hamburger a{
+    font-size: 25px;
+    color: #f5f6fa;
+    text-align: center;
+    display: flex;
+}
+body.active .wrapper .sidebar{
+    margin-left: -225px;
+}
+body.active .wrapper .section{
+    margin-left: 0%;
+    width: 100%;
+}
+/* dashboardcontent area */
+.content{
+     align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 33px;
+    font-family: initial;
+    font-weight: 600;
+}
+
+/*footer*/
+.footer1{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+}
+.footertextlist{
+    color: #ffffff;
+}
+.footercontent{
+    color: #ffffff;
+}
+.newsfooter{
+    width: 100%;
+    height: 85px;
+}
+.footerheading{
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+.bgclass{
+    background-color: rgb(7, 105, 185);
+}
+ul {
+    list-style-type: none !important;
+}
+
+.card-text{
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+}
+
